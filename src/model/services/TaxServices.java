@@ -1,6 +1,8 @@
 package model.services;
 
-public interface TaxServices {
-
-	public Double tax(double amount, int numberMonths);
+public interface TaxServices 
+{
+	double tax(double amount);
+	
+	double interest(double amount, int months);
 }
